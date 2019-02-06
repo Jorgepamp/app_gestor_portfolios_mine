@@ -5,13 +5,13 @@
   
   -->
 </h2>
-{{etiqueta_nombre}}: <input class="inputclass" type="text" [placeholder]="placeholder_nombre" (click)="limpiar()"
+{{etiqueta_nombre}}:<br /> <input class="inputclass" type="text" [placeholder]="placeholder_nombre" (click)="limpiar()"
   [(ngModel)]="nombreIntroducido" />
 <input class="inputButton" type="button" value="Limpiar" (click)="limpiar()" />
-<br />{{etiqueta_descripcion}}: <input class="inputclass" type="text" [placeholder]="placeholder_descripcion" (click)="limpiar()"
-  [(ngModel)]="descripcionIntroducido" />
+<br />{{etiqueta_descripcion}}:<br /> <input class="inputclass" type="text" [placeholder]="placeholder_descripcion"
+  (click)="limpiar()" [(ngModel)]="descripcionIntroducido" />
 <input class="inputButton" type="button" value="Limpiar" (click)="limpiar2()" />
-<br />{{etiqueta_archivo}}: <input class="inputclass" type="text" [placeholder]="placeholder_archivo" (click)="limpiar()"
+<br />{{etiqueta_archivo}}:<br /> <input class="inputclass" type="text" [placeholder]="placeholder_archivo" (click)="limpiar()"
   [(ngModel)]="archivoIntroducido" />
 <input class="inputButton" type="button" value="Limpiar" (click)="limpiar3()" />
 <br />
