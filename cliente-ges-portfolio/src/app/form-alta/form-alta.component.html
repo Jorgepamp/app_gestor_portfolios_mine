@@ -1,0 +1,18 @@
+<h2 class="hStyle">
+  {{ titulo }}
+  <!--las dobles llaves es mete esto donde sea. Los corchetes como en el caso de [placeholder] es que un atributo de html tenga el valor de una variable o función del modelo. Esto es del modelo a la vista
+  Los panréntesis son de la vista al modelo, para los eventos. Se pueden recibir en el modelo desde la vista.
+  
+  -->
+</h2>
+{{etiqueta_nombre}}: <input class="inputclass" type="text" [placeholder]="placeholder_nombre" (click)="limpiar()"
+  [(ngModel)]="nombreIntroducido" />
+<input class="inputButton" type="button" value="Limpiar" (click)="limpiar()" />
+<br />{{etiqueta_descripcion}}: <input class="inputclass" type="text" [placeholder]="placeholder_descripcion" (click)="limpiar()"
+  [(ngModel)]="descripcionIntroducido" />
+<input class="inputButton" type="button" value="Limpiar" (click)="limpiar2()" />
+<br />{{etiqueta_archivo}}: <input class="inputclass" type="text" [placeholder]="placeholder_archivo" (click)="limpiar()"
+  [(ngModel)]="archivoIntroducido" />
+<input class="inputButton" type="button" value="Limpiar" (click)="limpiar3()" />
+<br />
+<input class="inputButton" type="button" value="Añadir" (click)="darAlta()" />

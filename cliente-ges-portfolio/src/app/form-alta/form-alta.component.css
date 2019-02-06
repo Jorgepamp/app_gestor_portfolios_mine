@@ -1,0 +1,42 @@
+* {
+  font-family: Roboto;
+}
+
+.hStyle {
+  color: #5b566b;
+
+
+}
+
+.inputclass {
+  width: 250px;
+  border: none;
+  border-bottom: solid #5b566b;
+  margin: 15px;
+}
+
+.inputButton {
+  border: solid #5b566b;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin-top: 10px;
+  color: #5b566b;
+
+
+}
+
+.inputButton:hover {
+  background-color: #5a5a5a;
+  color: white;
+}
+
+.inputButton:active {
+  background-color: #5a5a5a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
