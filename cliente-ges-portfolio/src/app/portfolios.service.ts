@@ -6,6 +6,7 @@ export class PortfoliosService {
   lista: Array<Portfolio>;
   constructor() {
     console.log("<<< CREANDO SERVICIO >>>");
+    this.lista = new Array<Portfolio>();
   }
   public alta(nombre: string, desc: string, fich: string): void {
     let nuevoPortfolio: Portfolio;
